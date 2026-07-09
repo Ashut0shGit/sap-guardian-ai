@@ -1,0 +1,17 @@
+{
+  "transport_id": "DEVK900452",
+  "description": "Authorization enhancements",
+  "developer": "Rahul",
+  "objects": [
+    {
+      "name": "ZCL_AUTH_SERVICE",
+      "type": "CLAS",
+      "description": "Authorization handling"
+    },
+    {
+      "name": "ZAUTH_CHECK",
+      "type": "PROG",
+      "description": "Authorization report"
+    }
+  ]
+}

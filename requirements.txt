@@ -1,0 +1,11 @@
+openai
+fastapi
+uvicorn
+streamlit
+mcp
+langgraph
+langchain
+chromadb
+pydantic
+python-dotenv
+tiktoken

@@ -1,0 +1,18 @@
+{
+  "CLAS": {
+    "risk": 7,
+    "impact": "Business logic change"
+  },
+  "DDLS": {
+    "risk": 8,
+    "impact": "Database and Fiori impact"
+  },
+  "SRVB": {
+    "risk": 9,
+    "impact": "API contract changes"
+  },
+  "PROG": {
+    "risk": 5,
+    "impact": "Report behavior change"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "transport_id": "DEVK900451",
+  "description": "Pricing enhancement release",
+  "developer": "Ashutosh",
+  "objects": [
+    {
+      "name": "ZCL_PRICING_ENGINE",
+      "type": "CLAS",
+      "description": "Pricing calculation logic"
+    },
+    {
+      "name": "ZI_CUSTOMER_PRICING",
+      "type": "DDLS",
+      "description": "Customer pricing CDS view"
+    },
+    {
+      "name": "ZSD_ORDER_API",
+      "type": "SRVB",
+      "description": "Sales order service API"
+    }
+  ]
+}

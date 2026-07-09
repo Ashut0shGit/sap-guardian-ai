@@ -1,0 +1,14 @@
+[
+  {
+    "id": "INC1001",
+    "module": "SD",
+    "description": "Pricing transport caused billing failure in VF01",
+    "related_objects": ["ZCL_PRICING_ENGINE", "ZI_CUSTOMER_PRICING"]
+  },
+  {
+    "id": "INC1002",
+    "module": "Security",
+    "description": "Missing authority check allowed unauthorized access",
+    "related_objects": ["ZCL_AUTH_SERVICE"]
+  }
+]

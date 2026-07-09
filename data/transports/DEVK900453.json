@@ -1,0 +1,17 @@
+{
+  "transport_id": "DEVK900453",
+  "description": "Material master improvements",
+  "developer": "Priya",
+  "objects": [
+    {
+      "name": "ZMM_MATERIAL_API",
+      "type": "CLAS",
+      "description": "Material management service"
+    },
+    {
+      "name": "ZI_MATERIAL_MASTER",
+      "type": "DDLS",
+      "description": "Material CDS view"
+    }
+  ]
+}
