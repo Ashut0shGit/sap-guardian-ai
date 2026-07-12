@@ -1,0 +1,10 @@
+Pricing related transports require testing of:
+
+- VA01 Create Sales Order
+- VA02 Change Sales Order
+- VA03 Display Sales Order
+- VF01 Create Billing Document
+- VF02 Change Billing Document
+- VF03 Display Billing Document
+
+Pricing engine changes are considered high-risk transports.

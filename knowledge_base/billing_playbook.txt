@@ -1,0 +1,10 @@
+Billing related transports require regression testing.
+
+Mandatory transactions:
+
+- VF01
+- VF02
+- VF03
+
+Previous incidents have shown that pricing changes
+can cause invoice calculation failures.

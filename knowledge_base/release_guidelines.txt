@@ -1,0 +1,13 @@
+SAP release guidelines:
+
+HIGH RISK:
+- Pricing engine modifications
+- Billing logic modifications
+- CDS view modifications impacting SD
+
+MEDIUM RISK:
+- UI changes
+- Reports
+
+LOW RISK:
+- Documentation changes

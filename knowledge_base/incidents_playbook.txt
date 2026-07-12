@@ -1,0 +1,9 @@
+Historical incidents:
+
+Pricing enhancements have previously caused:
+
+- Billing failures
+- Invoice generation failures
+- Incorrect customer pricing calculations
+
+These transports require full SD regression testing.

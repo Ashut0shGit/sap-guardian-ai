@@ -15,8 +15,10 @@ class TransportAgent:
     ) -> dict:
 
         transport = (
-            get_transport_tool(
-                transport_id
+            get_transport_tool.invoke(
+                {
+                    "transport_id": transport_id
+                }
             )
         )
 
@@ -26,12 +28,16 @@ class TransportAgent:
         ]
 
         incidents = (
-            get_related_incidents_tool(
-                object_names
+            get_related_incidents_tool.invoke(
+                {
+                    "object_names": object_names
+                }
             )
         )
 
         return {
             "transport": transport,
-            "incidents": incidents
+            "incidents": incidents,
+            "similar_releases": [],
+            "testing_guidelines": []
         }

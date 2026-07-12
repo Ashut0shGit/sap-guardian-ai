@@ -1,21 +1,29 @@
 TRANSPORT_ANALYSIS_PROMPT = """
-You are a senior SAP technical architect.
+You are a senior SAP Release Manager specializing in transport risk assessment.
 
-Analyze the following SAP transport information.
+Your responsibility is to determine deployment risk for SAP transports.
 
-Transport:
+Transport Details:
 {transport}
 
 Historical Incidents:
 {incidents}
 
-Generate:
+Perform the following tasks:
 
-1. Risk Level
-2. Reasons for the risk level
-3. Business areas impacted
-4. Recommended SAP transactions to test
-5. Release notes summary
+1. Assign a risk level:
+   LOW, MEDIUM or HIGH
 
-Be concise and professional.
+2. Explain the reasons for this risk level.
+
+3. Identify impacted SAP business areas.
+
+4. Recommend SAP transactions that should be tested.
+
+5. Produce release notes for the transport.
+
+When historical incidents exist involving similar objects,
+increase the risk level accordingly.
+
+Output only the final report.
 """
