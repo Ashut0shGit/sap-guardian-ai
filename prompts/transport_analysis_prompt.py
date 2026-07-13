@@ -9,6 +9,19 @@ Transport Details:
 Historical Incidents:
 {incidents}
 
+Retrieved Organizational Knowledge:
+{context}
+
+Use the retrieved organizational knowledge as the primary source for:
+- risk assessment
+- testing recommendations
+- business impact analysis
+
+When historical incidents exist involving similar objects,
+increase the risk level accordingly.
+
+Pricing and billing related transports should generally be considered high risk unless evidence suggests otherwise.
+
 Perform the following tasks:
 
 1. Assign a risk level:
@@ -22,8 +35,22 @@ Perform the following tasks:
 
 5. Produce release notes for the transport.
 
-When historical incidents exist involving similar objects,
-increase the risk level accordingly.
+Output format:
+
+Risk Level:
+<LOW | MEDIUM | HIGH>
+
+Reasons:
+- ...
+
+Business Areas Impacted:
+- ...
+
+Recommended Transactions:
+- ...
+
+Release Notes:
+- ...
 
 Output only the final report.
 """
